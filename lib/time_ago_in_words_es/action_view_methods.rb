@@ -30,7 +30,7 @@ module ActionViewMethods
     when 1440..2879
       then '1 dia'
     when 2880..43_199
-      then "#{(distance_in_minutes / 1440).round} dias"
+      then "#{(distance_in_minutes / 1440).round} días"
     when 43_200..86_399
       then 'aproximadamente 1 mes'
     when 86_400..525_959
